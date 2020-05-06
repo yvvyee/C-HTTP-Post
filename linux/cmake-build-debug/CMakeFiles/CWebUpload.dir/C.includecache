@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ywlee/CLionProjects/CWebUpload/main.c
+sys/socket.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+netdb.h
+-
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+errno.h
+-
+arpa/inet.h
+-
+
